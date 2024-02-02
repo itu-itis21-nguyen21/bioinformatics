@@ -8,7 +8,7 @@ In this term project, we ran 12 variant calling pipelines on a pair of healthy a
 - Base recalibration: either included or not
 - Variant calling: either Somatic Sniper, Strelka2, or Mutect2
 
-We then analyzed and compared the variant set that each pipeline returns, using visualization tools (graphs, heatmaps, PCA) and statistical techniques (precision, recall, F1-score). The report contains a complete treatment of the results, analysis, and discussion. Interested readers can learn more about the project or access input data in the project description file.
+We then analyzed and compared the variant set that each pipeline returns, using visualization tools (graphs, heatmaps, PCA) and statistical techniques (precision, recall, F1-score). The report contains a complete treatment of the results, analysis, and discussion. Interested readers can learn more about the project or access input data in the project description file. I also include the variant sets that the pipelines return in the VCF folder.
 
 **Key takeaways:**
 - Most variations in outputs, precision, recall, and F1 score can be attributed to variant calling algorithms. Among the three algorithms, Mutect2 has the best performance.
